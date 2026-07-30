@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #eef5fc;
+    margin: 0;
+}
+
+#map svg {
+    display: block;
+    margin: auto;
+}
+
+.country {
+    fill: #fff;          /* countries are white */
+    stroke: #000;        /* borders are black */
+    stroke-width: 0.5px;
+    cursor: pointer;
+}
+
+.country:hover {
+    fill: #f0f0f0;       /* subtle hover color, optional */
+}
+
+#info {
+    width: 960px;
+    margin: 20px auto;
+    text-align: left;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #aaa;
+}
+
+#info img {
+    display: block;
+    margin-bottom: 10px;
+}
