@@ -1,4 +1,4 @@
-const apiKey = "d9555b6644fd8a36731b85c6dcfb73b7";
+const apiKey = "APIKEY";
 
 const zipInput = document.getElementById("zipInput");
 const searchBtn = document.getElementById("searchBtn");
